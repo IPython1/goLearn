@@ -9,6 +9,10 @@ type Student struct {
 	Score int
 }
 
+func (s Student) String() string {
+	return fmt.Sprintf("Student{ID:%d,Name:%s,Age:%d,Score:%d}", s.ID, s.Name, s.Age, s.Score)
+}
+
 func main() {
 	//var st = Student{
 	//	ID:    1,

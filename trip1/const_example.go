@@ -11,6 +11,7 @@ func const_example() {
 		z             //iota=2 i=3<<2=3*2^2,iota++
 		q
 	)
+	fmt.Println(x, y, z, q)
 	const (
 		a = iota //默认初始值为0
 		b

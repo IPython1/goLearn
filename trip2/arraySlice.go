@@ -37,6 +37,7 @@ func main() {
 	var dic = map[string]int{ //方式二
 		"apple":      1,
 		"watermelon": 2,
+		"banana":     3,
 	}
 	//fmt.Printf("strAry %+v\n", strAry)
 	fmt.Printf("sliceAry %+v\n", sliceAry)
